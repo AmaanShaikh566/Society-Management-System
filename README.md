@@ -1,0 +1,2 @@
+# Society-Management-System
+This system is designed to manage day-to-day activities of a co-operative society. The software system can store the data of various flat owners and their family members along with their images. The system also maintains and calculates the society maintenance, manages bills (like electricity bills, water bills, etc.) as well as cultural events funds and adds them automatically in individual flat bill. The System also helps to resolve certain issues/complaints through the designed platform.
