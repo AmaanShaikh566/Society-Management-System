@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<style type="text/css">
+		.ancestors *
+		{
+			display: block;
+			border:2px solid purple;
+			color: orange;
+			padding: 5px;
+			margin: 15px;
+		}
+	</style>
+	<script type="text/javascript" src="D:\wamp64\www\College Work\jquery-3.5.1.js"></script>
+	<script type="text/javascript">
+		$(document).ready(function()
+		{
+			$("span").parent().css({"color":"green","border":"2px solid red"});
+		});
+	</script>
+</head>
+<center>
+<body>
+		<div class="ancestors">
+			<div style="width:700px">Div (Great-Grandparent)
+				<ul>ul
+					<li>li
+						<span>span</span>
+					</li>
+				</ul>
+			</div>
+
+			<div style="width:500px">Div (Grandparent)
+				<ul>ul
+					<li>li
+						<span>span</span>
+					</li>
+				</ul>
+			</div>
+				
+			</div>
+</body>
+</center>
+</html>
